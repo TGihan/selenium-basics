@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19628" started-at="2019-04-07T13:33:44Z" finished-at="2019-04-07T13:34:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19628" started-at="2019-04-07T13:33:44Z" finished-at="2019-04-07T13:34:04Z">
+      <class name="com.gihan.automation.basics.SeleniumExample">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.gihan.automation.basics.SeleniumExample@3bfdc050]" name="launchBrowser" is-config="true" duration-ms="10915" started-at="2019-04-07T13:33:44Z" finished-at="2019-04-07T13:33:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="verifyHomepageTitle()[pri:0, instance:com.gihan.automation.basics.SeleniumExample@3bfdc050]" name="verifyHomepageTitle" is-config="true" duration-ms="12" started-at="2019-04-07T13:33:55Z" finished-at="2019-04-07T13:33:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageTitle -->
+        <test-method status="PASS" signature="loginTest()[pri:1, instance:com.gihan.automation.basics.SeleniumExample@3bfdc050]" name="loginTest" duration-ms="1330" started-at="2019-04-07T13:33:55Z" finished-at="2019-04-07T13:33:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="goBackToHomepage()[pri:0, instance:com.gihan.automation.basics.SeleniumExample@3bfdc050]" name="goBackToHomepage" is-config="true" duration-ms="6345" started-at="2019-04-07T13:33:57Z" finished-at="2019-04-07T13:34:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goBackToHomepage -->
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:com.gihan.automation.basics.SeleniumExample@3bfdc050]" name="terminateBrowser" is-config="true" duration-ms="981" started-at="2019-04-07T13:34:03Z" finished-at="2019-04-07T13:34:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- com.gihan.automation.basics.SeleniumExample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
