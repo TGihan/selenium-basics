@@ -2,7 +2,8 @@
 
 ## Explaining the code
 
-**Add dependencies**
+### Add dependencies ###
+
 ```xml
   <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
@@ -26,7 +27,7 @@
 
 ```
 
-**Importing Packages**
+### Importing Packages ###
 
 To get started, you need to import following two packages:
 
@@ -35,9 +36,9 @@ To get started, you need to import following two packages:
 
 If your test needs more complicated actions such as accessing another class, taking browser screenshots, or manipulating external files, definitely you will need to import more packages.
 
+<br>
 
-
-**Instantiating objects and variables**
+### Instantiating objects and variables ###
 
   Normally, this is how a driver object is instantiated.
 
@@ -45,34 +46,36 @@ If your test needs more complicated actions such as accessing another class, tak
 
   For convenience, we saved the Base URL and the expected title as variables.
 
+<br>
 
-**Launching a Browser Session**
+### Launching a Browser Session ###
 
 WebDriver's get() method is used to launch a new browser session and directs it to the URL that you specify as its parameter.
 
+<br>
 
-
-**Get the Actual Page Title**
+### Get the Actual Page Title ###
 
 The WebDriver class has the getTitle() method that is always used to obtain the page title of the currently loaded page.
 
+<br>
 
-
-**Compare the Expected and Actual Values**
+### Compare the Expected and Actual Values ###
 
 This portion of the code simply uses a basic Java if-else structure to compare the actual title with the expected one.
 
+<br>
 
-
-**Terminating a Browser Session**
+### Terminating a Browser Session ###
 
 The "close()" method is used to close the browser window.
 
+<br>
 
-
-**Terminating the Entire Program**
+### Terminating the Entire Program ###
 
 If you use this command without closing all browser windows first, your whole Java program will end while leaving the browser window open.
+<br>
 
 ## TestNG
 
