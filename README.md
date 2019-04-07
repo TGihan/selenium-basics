@@ -75,7 +75,9 @@ The "close()" method is used to close the browser window.
 ### Terminating the Entire Program ###
 
 If you use this command without closing all browser windows first, your whole Java program will end while leaving the browser window open.
+
 <br>
+
 
 ## TestNG
 
