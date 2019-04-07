@@ -2,12 +2,37 @@
 
 ## Explaining the code
 
+**Add dependencies**
+```xml
+  <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-java</artifactId>
+      <version>3.141.59</version>
+  </dependency>
+
+  <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>6.14.3</version>
+      <scope>test</scope>
+  </dependency>
+
+  <dependency>
+      <groupId>io.github.bonigarcia</groupId>
+      <artifactId>webdrivermanager</artifactId>
+      <version>3.4.0</version>
+      <scope>test</scope>
+  </dependency>
+
+```
+
 **Importing Packages**
 
 To get started, you need to import following two packages:
 
 - org.openqa.selenium.*- contains the WebDriver class needed to instantiate a new browser loaded with a specific driver
-- org.openqa.selenium.chrome.ChromeDriver - contains the ChromeDriver class needed to instantiate a Chrome-specific driver onto the browser instantiated by the WebDriver class
+- org.testng.* - TestNG is a testing framework that is capable of making Selenium tests easier to understand and of generating reports that are easy to understand
+
 If your test needs more complicated actions such as accessing another class, taking browser screenshots, or manipulating external files, definitely you will need to import more packages.
 
 
